@@ -27,11 +27,3 @@ dist-ssr
 .env
 .env.local
 .env.production
-
-# Build files
-build
-.cache
-
-# Testing
-coverage
-*.lcov
