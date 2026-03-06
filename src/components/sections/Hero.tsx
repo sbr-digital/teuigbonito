@@ -5,11 +5,11 @@ const Hero: React.FC = () => {
     <section id="home" className="hero">
       <div className="hero-content fade-in">
         <div>
-          <img 
+          {/* <img 
             src="/logo-black-1.svg" 
             alt="Teu IG Bonito - Agência de Marketing Digital" 
             className="hero-logo"
-          />
+          /> */}
           <h1>Transforme seu Instagram em uma Máquina de Vendas</h1>
           <p>Especialistas em engajamento e estratégias digitais. Ajudamos você a viver do Instagram com conteúdo que converte.</p>
           <div className="hero-buttons">
