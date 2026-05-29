@@ -13,7 +13,9 @@ const Hero: React.FC = () => {
           <h1>Transforme seu Instagram em uma Máquina de Vendas</h1>
           <p>Especialistas em engajamento e estratégias digitais. Ajudamos você a viver do Instagram com conteúdo que converte.</p>
           <div className="hero-buttons">
-            <a href="#contato" className="cta-button">Começar Agora</a>
+            <a href="https://wa.me/5553920004255" className="cta-button"aria-label="WhatsApp" 
+              target="_blank" 
+              rel="noopener noreferrer">Começar Agora</a>
             <a href="#servicos" className="secondary-button">Nossos Serviços</a>
           </div>
         </div>
