@@ -11,7 +11,7 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onClose }) => {
     { href: '#servicos', label: 'Serviços' },
     { href: '#portfolio', label: 'Portfólio' },
     { href: '#depoimentos', label: 'Depoimentos' },
-    { href: '#contato', label: 'Contato' }
+    // { href: '#contato', label: 'Contato' }
   ]
 
   useEffect(() => {
