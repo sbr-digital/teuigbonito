@@ -97,7 +97,7 @@ const Contact: React.FC = () => {
               required 
               aria-required="true"
             ></textarea>
-          </div>
+          </div>          
           <button type="submit" className="submit-button">Enviar Mensagem</button>
         </form>
       </div>

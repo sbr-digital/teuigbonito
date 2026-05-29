@@ -10,18 +10,20 @@ const Header: React.FC<HeaderProps> = ({ onMenuToggle, isMenuOpen }) => {
     <header>
       <nav>
         <div className="logo-container">
+          <a href="#home">
           <img 
-            src="/logo-black.svg" 
+            src="/TEU IG 9.png" 
             alt="Teu IG Bonito" 
             className="logo-image"
           />
+          </a>
         </div>
         <ul className="nav-links">
           <li><a href="#home">Início</a></li>
           <li><a href="#servicos">Serviços</a></li>
           <li><a href="#portfolio">Portfólio</a></li>
           <li><a href="#depoimentos">Depoimentos</a></li>
-          <li><a href="#contato">Contato</a></li>
+          {/* <li><a href="#contato">Contato</a></li> */}
         </ul>
         <button 
           className="menu-toggle" 

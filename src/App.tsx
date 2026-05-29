@@ -7,7 +7,7 @@ import Services from './components/sections/Services'
 import Portfolio from './components/sections/Portfolio'
 import Testimonials from './components/sections/Testimonials'
 import CTA from './components/sections/CTA'
-import Contact from './components/sections/Contact'
+// import Contact from './components/sections/Contact'
 import Footer from './components/layout/Footer'
 
 const App: React.FC = () => {
@@ -32,7 +32,7 @@ const App: React.FC = () => {
         <Portfolio />
         <Testimonials />
         <CTA />
-        <Contact />
+        {/* <Contact /> */}
       </main>
       <Footer />
     </>
